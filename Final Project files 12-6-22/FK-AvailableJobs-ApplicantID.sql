@@ -1,0 +1,4 @@
+ALTER TABLE AvailableJobs
+ADD CONSTRAINT FK_ApplicantAvailableJobs FOREIGN KEY(ApplicantID) REFERENCES Applicant(ID)
+ON UPDATE CASCADE
+GO
